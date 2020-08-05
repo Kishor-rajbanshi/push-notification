@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Simal\\WebNotification\\": "src/"
+            "Amu\\WebNotification\\": "src/"
         }
     }
 }
