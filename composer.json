@@ -1,0 +1,30 @@
+{
+    "name": "amu/push-notification",
+    "description": "push notificaton for webapp",
+    "type": "library",
+    "keywords": [
+        "push notification",
+        "amu"
+    ],
+    "authors": [
+        {
+            "name": "kishor-rajbanshi",
+            "email": "kishorrajbanshi00@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4.7"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Simal\\WebNotification\\": "src/"
+        }
+    }
+}
